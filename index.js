@@ -1,7 +1,7 @@
 let counter = document.querySelector('.counter-display');
 let increment = document.querySelector('.counter-plus');
-let coin = document.querySelector('.coin');
-let audio = new Audio('coin.mp3');
+let coin = document.querySelector('.coin')
+let audio = new Audio('coin.ogg')
 let count = 0
 
 increment.addEventListener("click",()=>{
